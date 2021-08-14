@@ -22,26 +22,25 @@ int main(){
     // 01010101 - 2
     // 11111111
     
-    unsigned int a = 40000;
-    
     printf("Ingresa el primer valor:");
     scanf("%d", &a);
-    scanf("%c", &operationType);
+    printf("Tipo de operacion:");
+    scanf(" %c", &operationType);
     
     printf("Ingresa el segundo valor:");
     scanf("%d", &b);
     
     switch (operationType) {
-        case "+":
+        case '+':
             printf("Suma es: %d", a + b);
             break;
-        case "-":
+        case '-':
             printf("Resta es: %d", a - b);
-            break
+            break;
         default:
             break;
     }
-    printf("Jaja Saludos");
+    printf("\nJaja Saludos\n");
     
     
     
